@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 
 import Header from "./components/header"
 import Hero from "./components/hero"
+import Skills from "./components/skills"
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <Skills />
     </div>
   )
 }
